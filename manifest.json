@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Color Audit Screenshot Saver",
+  "version": "1.5.0",
+  "description": "Full-page color audit with numbered legend mode and detailed inline mode.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs",
+    "downloads",
+    "debugger"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_title": "Color Audit",
+    "default_popup": "popup.html"
+  }
+}
