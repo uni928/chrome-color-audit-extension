@@ -617,12 +617,12 @@ function drawDetailedAnnotation(ctx, item) {
   ctx.stroke();
 
   ctx.beginPath();
-  ctx.arc(marker.cx, marker.cy, markerRadius, 0, Math.PI * 2);
-  ctx.fillStyle = 'rgba(255,255,255,0.97)';
-  ctx.fill();
-  ctx.lineWidth = 2;
-  ctx.strokeStyle = 'rgba(0,0,0,0.86)';
-  ctx.stroke();
+  //ctx.arc(marker.cx, marker.cy, markerRadius, 0, Math.PI * 2);
+  //ctx.fillStyle = 'rgba(255,255,255,0.97)';
+  //ctx.fill();
+  //ctx.lineWidth = 2;
+  //ctx.strokeStyle = 'rgba(0,0,0,0.86)';
+  //ctx.stroke();
 
   roundRect(ctx, detailBox.x, detailBox.y, detailBox.w, detailBox.h, 10);
   ctx.fillStyle = 'rgba(255,255,255,0.96)';

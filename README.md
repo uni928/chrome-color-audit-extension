@@ -1,4 +1,4 @@
-# Color Audit Screenshot Saver v1.5.0
+# Color Audit Screenshot Saver v1.5.1
 
 ## 主な追加
 - 同じ番号が5箇所以上になる場合は、離れている代表5箇所だけに表示
